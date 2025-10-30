@@ -1,44 +1,51 @@
+/*
+Brand Colors
+Dark Teal #147F8A
+Light Teal #44BBC5
+*/
+
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
-    background-color: #f4f4f4;
-    line-height:5em;
-    margin: 0;
-   
-
-        
-    }
-p 
-{
-    
-    font : normal 40px Arial, Helvetica, sans-serif;
-    
-}
-.container {
-    width: 80%;
-    margin:auto;
-    
-
-}
-
-
-.box-1 {
-    h1 {
-        border: 5px solid #008080;
-        border-radius: 20px;
-        font: normal 50px Arial, Helvetica, sans-serif; 
-        color: #014D4E;
-        padding: 20px;
-        text-align: center;
-    }
-
-
-}
-
-.box-2 {
+    font-family: 'poppins', sans-serif;
     text-align: center;
+    background-color: #f4f4f4;
+ }
+
+
+
+
+
+p {
+    font-size: 32px;
+    line-height: 1;
+
 }
-    @media only screen and (min-width: 768px)
+
+.teal_words {
+    color: #147F8A;
+    font-weight: 700;
 }
+
+.medalign_card {
+    width: 500px;
+    background-color: #44BBC5;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid slategray;
+    padding-bottom: 15px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}  
+
+
